@@ -1,0 +1,44 @@
+name: mohammed
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.4
+  firebase_storage: ^12.3.7
+  firebase_core: ^3.9.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.1
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/iphone13promax.jpg  # Correct path to the image
+    - assets/samsung galaxy.jpg
+    - assets/redmi.jpg
+    - assets/huawei.jpg
+    - assets/laptop1.jpg
+    - assets/laptop2.jpg
+    - assets/laptop3.jpg
+    - assets/laptop4.jpg
+    - assets/laptop5.jpg
+    - assets/watch1.jpg
+    - assets/watch2.jpg
+    - assets/watch3.jpg
+    - assets/watch4.jpg
+    - assets/watch5.jpg
+    - assets/watch6.png
